@@ -1,0 +1,36 @@
+@function Px($px) {
+  @return $px / 750 * 10rem;
+}
+
+@mixin Height($height) {
+  height: $height;
+  line-height: $height;
+}
+
+@mixin Gradient($color) {
+  background: linear-gradient(top, $color, darken($color, 5%));
+}
+
+$white: #fff !default;
+$black: #333 !default; 
+$gray-dark: #666 !default;
+$gray: #999 !default;
+$white-light: #e5e5e5 !default;
+$white-gray: #f3f3f3 !default;
+
+$blue-dark: #374d63 !default;
+
+$red: #ef3d3f !default;
+$orange: #ffa438 !default;
+$green: #4cc1a7 !default;
+$yellow: #ffaf47 !default;
+$blue: #5e91fe !default;
+$blue-gray: #8a9ddd !default;
+$purple: #965cff !default;
+
+$font-size-normal:Px(36) !default;
+$font-size-24:Px(24) !default;
+$font-size-36:Px(36) !default;
+$font-size-48:Px(48) !default;
+$font-size-60:Px(60) !default;
+$font-size-72:Px(72) !default;

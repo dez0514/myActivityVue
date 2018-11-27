@@ -1,0 +1,28 @@
+@import './base.scss';
+
+body {
+  background: $back-color;
+  color: $font-color;
+  font-size: 12px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}

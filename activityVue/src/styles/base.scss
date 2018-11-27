@@ -1,0 +1,28 @@
+// 包含变量等
+
+// 捷彦 说用这个背景色. 要改先找他同意.
+// wap 背景色
+$back-color: #f3f3f3; // 背景色
+// 激活的颜色
+$active-color: #fc6256;
+$font-color: #666;
+
+$yellow: #ffb921;
+
+$border-color: #f1f1f1; 
+
+
+
+
+@function Px($px) {
+  @return $px / 750 * 10rem;
+}
+
+%center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

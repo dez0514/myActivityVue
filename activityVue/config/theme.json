@@ -1,0 +1,4 @@
+{
+    "rebate" : "src/rebate/styles/themes.less",
+    "other" : "src/styles/themes.less"
+}
